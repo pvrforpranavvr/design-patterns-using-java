@@ -4,8 +4,7 @@
 
 ### How can we achieve
 
-* Constructor should be private to avoid external initialization of the class
-
-* public static getInstance method that returns the instance of the class.
-
-* getInstance method should be thread safe. Use class level lock.
+* Create an abstract class that will contain a template method, default implementations and abstract methods
+* Template method should be final so that subclass won't override
+* Default implementations may or maynot be overridden based on the subclass implementation
+* Abstract methods will be implemented by subclasses
