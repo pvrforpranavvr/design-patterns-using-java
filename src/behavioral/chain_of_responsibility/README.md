@@ -1,4 +1,4 @@
-### Strategy Pattern
+## Chain Of Responsibility
 
 * Behavioral design pattern that allows you to define a chain of business logic you want execute
 
